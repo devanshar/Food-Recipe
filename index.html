@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Chef</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Sacramento&family=Satisfy&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="blurr" id="blur">
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="./new/images__25_-removebg-preview.png">
+                
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Recipes</a></li>
+                <li><a href="#Gallary">Your Recipies</a></li>
+                <li><a href="#Review">Team</a></li>
+                <li><a href="#Order">Contact</a></li>
+            </ul>
+
+            <div class="icon">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <i class="fas fa-search" id="searchyo"></i>
+                </div>
+                <!-- <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i> -->
+            </div>
+
+        </nav>
+
+        <div class="main">
+            <div class="men_text">
+                <h1>Get Latest and <span>Trendy</span><br> Recipes</h1>
+            </div>
+            <div class="te">
+                <p>
+                    Welcome to Teen Chef, where cooking is all about the good vibes and great tastes. Dive into our collection of easy-breezy recipes that scream 'delicious' without the fuss. From tasty snacks to mouthwatering meals, we've got your cravings covered! <br>
+                    So, what are you waiting for? Grab your spatula, turn up the beats, and let's make some kitchen memories together. <br><br>
+                    Happy cooking, Teen Chefs! <br>
+                    The Teen Chef Crew 🍕
+                </p>
+            </div>
+            <div class="main_btn">
+                <a href="#Menu">Recipes <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+     
+     
+        
+
+    </section>
+
+
+
+    <!--About-->
+
+    <div class="about" id="About">
+        <div class="about_main">
+            <div class="image">
+                <img src="./new/art-removebg-preview.png" alt="About Us Image">
+            </div>
+    
+            <div class="about_text">
+                <h1>Why Choose <span>Us</span>?</h1>
+                <p>
+                    Here, it's not about following recipes like a rulebook; it's about throwing in a dash of creativity and having a blast while you're at it. Let your taste buds lead the way, and who knows, you might just stumble upon the next big flavor sensation! <br>
+                    Also, you can share your recipes with us and get a chance to be part of our team.
+                </p>
+            </div>
+        </div>
+    
+        <a href="#Order" class="about_btn">Connect</a>
+    </div>
+    
+
+
+    <!--Menu-->
+
+    <div class="menu" id="Menu">
+        <h1>Our<span>Recipies</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card" data-search="Lasagna">
+
+                <div class="menu_image">
+                    <img src="./image/lasagna.webp">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2>Lasagna</h2>
+                    <p>
+                        Lasagna is a classic Italian dish that is a type of pasta, as well as the name of the layered casserole made using this pasta.
+                    </p>
+                    <!-- <h3>Credit ~ Renu</h3> -->
+                    <div class="menu_icon">
+                        <!-- <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> -->
+                    </div>
+                    <!-- <a href="#" class="menu_btn">Order Now</a> -->
+                    <div class="popup" onclick="myFunction()">Show Recipe
+                        <span class="popuptext" id="myPopup">
+                            <div class="line">
+                        <pre>
+1 pound (450g) ground meat
+1/2 pound (225g) ground pork
+1 onion, finely chopped
+2 cloves garlic, minced
+1 can (28 ounces) crushed tomatoes
+2 cans (14 ounces each) tomato sauce
+1/2 cup red wine (optional)
+2 teaspoons dried oregano
+2 teaspoons dried basil
+Salt and pepper to taste
+                        </pre>
+                              
+                            </div>
+                                <div class="line2">    
+                                   <p>In a large skillet or saucepan, brown the ground beef and pork over medium-high heat until cooked through. Drain excess fat.
+                                    Add chopped onion and garlic to the skillet and cook until softened.
+                                    Stir in crushed tomatoes, tomato sauce, red wine (if using), oregano, basil, salt, and pepper.
+                                    Simmer the sauce for at least 30-45 minutes, allowing the flavors to meld. Stir occasionally.
+                                    In a separate saucepan, melt butter over medium heat.
+                                    Stir in the flour to create a roux. Cook for a minute or two, being careful not to brown it.
+                                    Gradually whisk in the milk to avoid lumps.
+                                    Cook the sauce until it thickens, stirring constantly.
+                                    Season with salt and a pinch of nutmeg.
+                                    <div class="popup" onclick="myFunctio2()">Close</div></p>
+
+                            </div>
+                        </span>
+                      </div>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card" data-search="Tiramisu">
+
+                <div class="menu_image">
+                    <img src="./new/tiramisu-square.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2>Tiramisu</h2>
+                    <p>
+                        Tiramisu is a classic Italian dessert known for its layers of coffee-soaked ladyfingers and a rich mascarpone cream.
+                    </p>
+                    <!-- <h3>$20.00</h3> -->
+                    <div class="menu_icon">
+                    </div>
+                                        <div class="popup" onclick="myFunctio()">Show Recipe
+                        <span class="popuptext" id="myPopu">
+                            <div class="line">
+               <pre>
+
+Ingredients:
+For the Coffee Soaking Mixture:
+1 1/2 cups strong brewed coffee, cooled to room temperature
+2 tablespoons coffee liqueur (optional)
+2 tablespoons sugar
+For the Mascarpone Filling:
+4 large egg yolks
+3/4 cup granulated sugar
+1 cup mascarpone cheese, softened
+1 1/2 cups heavy cream
+1 teaspoon vanilla extract
+               </pre>
+                              
+                            </div>
+                                <div class="line2">    
+                                 <p>Prepare the Coffee Soaking Mixture:
+                                    Brew strong coffee and let it cool to room temperature.
+                                    Add sugar to the coffee and stir until dissolved.
+                                    If using, add coffee liqueur to the coffee mixture and stir.
+                                    2. Make the Mascarpone Filling:
+                                    In a heatproof bowl, whisk together egg yolks and sugar.
+                                    Place the bowl over a pot of simmering water (double boiler) and whisk continuously until the mixture becomes pale and slightly thickened. This step is known as "sabayon."
+                                    Remove from heat and let it cool for a few minutes.
+                                    Add softened mascarpone to the egg yolk mixture and whisk until smooth.
+                                    In a separate bowl, whip the heavy cream and vanilla extract until stiff peaks form.
+                                    Gently fold the whipped cream into the mascarpone mixture until well combined. Be careful not to deflate the whipped cream.
+                                    3. Assemble the Tiramisu:
+                                    Dip each ladyfinger into the coffee mixture, ensuring they are well-coated but not overly soaked.
+                                    Arrange a layer of dipped ladyfingers in the bottom of a serving dish or individual serving glasses.
+                                    Spread half of the mascarpone filling over the layer of ladyfingers.
+                                    Repeat the process with another layer of dipped ladyfingers and the remaining mascarpone filling.
+                                    Cover and refrigerate the tiramisu for at least 4 hours or overnight to allow the flavors to meld.</p>
+                                    <div class="popup" onclick="myFunctio2()">Close</div>
+                            </div>
+                        </span>
+                      </div>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Tandori Chicken">
+
+                <div class="menu_image">
+                    <img src="./new/tandoori.jpeg">
+                </div>
+
+                <div class="small_card" >
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2>Tandori Chicken</h2>
+                    <p>
+                        Tandoori Chicken is a popular Indian dish known for its vibrant red color and bold flavors
+                    </p>
+                    <!-- <h3>$20.00</h3> -->
+                    <div class="menu_icon">
+
+                    </div>
+                    <div class="popup" onclick="myFunctio1()">Show Recipe
+                        <span class="popuptext" id="myPopu1">
+                            <div class="line">
+               <pre>
+                Ingredients:
+                For the Marinade:
+                1.5 to 2 pounds (700g to 1kg) chicken pieces (drumsticks, thighs, or a mix)
+                1 cup plain yogurt
+                3 tablespoons ginger-garlic paste
+                1 tablespoon red chili powder (adjust to your spice preference)
+                1 tablespoon ground coriander
+                1 tablespoon ground cumin
+                1 tablespoon garam masala
+                1 teaspoon turmeric powder
+                1 tablespoon smoked paprika (for color, can use Kashmiri red chili powder for authenticity)
+                2 tablespoons lemon juice
+                Salt to taste
+                2 tablespoons vegetable oil
+                For Garnish:
+                Fresh coriander leaves (cilantro)
+                Lemon wedges
+               </pre>
+                              
+                            </div>
+                                <div class="line2">    
+<p>Prepare the Chicken:
+    Clean and make shallow cuts on the chicken pieces to allow the marinade to penetrate.
+    Pat the chicken dry with paper towels to remove excess moisture.
+    2. Make the Marinade:
+    In a large bowl, combine yogurt, ginger-garlic paste, red chili powder, ground coriander, ground cumin, garam masala, turmeric powder, smoked paprika, lemon juice, salt, and vegetable oil.
+    Mix the marinade until well combined.
+    3. Marinate the Chicken:
+    Add the chicken pieces to the marinade, ensuring they are well-coated.
+    Cover the bowl with plastic wrap and refrigerate. Marinate for at least 4 hours, or ideally overnight for the best flavor.
+    4. Preheat the Oven or Grill:
+    If using an oven, preheat it to the highest temperature (usually around 475°F or 245°C).
+    If using a grill, preheat it to medium-high heat.
+    5. Cook the Tandoori Chicken:
+    For the oven method, place a wire rack on a baking sheet. Arrange the marinated chicken pieces on the rack.
+    Bake in the preheated oven for 25-30 minutes or until the chicken is cooked through and has a charred appearance.
+    If using a grill, cook the chicken for about 15-20 minutes, turning occasionally until cooked through and charred.
+    6. Garnish and Serve:
+    Garnish the Tandoori Chicken with fresh coriander leaves and serve with lemon wedges.
+    Serve hot with naan or rice and your favorite chutney or raita.
+    Enjoy your homemade Tandoori Chicken with its deliciously smoky and spicy flavor!</p>
+
+
+    <div class="popup" onclick="myFunctio2()">Close</div>
+
+                            </div>
+                        </span>
+                      </div>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Chocolate Cake">
+
+                <div class="menu_image">
+                    <img src="./new/Triple-Chocolate-Cake-5.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2>Chocolate Cake</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <!-- <h3>$20.00</h3> -->
+                    <div class="menu_icon">
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="pizza">
+
+                <div class="menu_image">
+                    <img src="./image/pizza.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info">
+                    <h2>pizza</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                   
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Hot Dog">
+
+                <div class="menu_image">
+                    <img src="./image/Hot_dog.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info">
+                    <h2>Hot Dog</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                  
+                    <div class="menu_icon">
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Juice">
+
+                <div class="menu_image">
+                    <img src="./image/juse.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2>Juice</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                  
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Biryani">
+
+                <div class="menu_image">
+                    <img src="./image/biryani.webp">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" >
+                    <h2 >Biryani</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                   
+                    <div class="menu_icon">
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Chocolate">
+
+                <div class="menu_image">
+                    <img src="./image/chocolate.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info" data-search="Chocolate">
+                    <h2>Chocolate</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                   
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Ice Cream">
+
+                <div class="menu_image">
+                    <img src="./image/ice_cream.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info">
+                    <h2>Ice Cream</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Spanchi">
+
+                <div class="menu_image">
+                    <img src="./image/Spanchi.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info">
+                    <h2>Spanchi</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card" data-search="Sandwich">
+
+                <div class="menu_image">
+                    <img src="./image/sandwich.jpg">
+                </div>
+
+                <div class="small_card">
+                    <!-- <i class="fa-solid fa-heart"></i> -->
+                </div>
+
+                <div class="menu_info">
+                    <h2>Sandwich</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                
+                    <div class="menu_icon">
+
+                    </div>
+                    <a href="#" class="menu_btn">Show Recipe</a>
+                </div>
+
+            </div> 
+            
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+    <!--Gallary-->
+
+    <div class="gallary" id="Gallary">
+        <h1>Recipies<span>You </span> Share</h1>
+
+        <div class="gallary_image_box">
+            <div class="gallary_image">
+                <img src="./new/6.-Dosa-Idlis.jpg">
+
+                <h3>Idli Sambhar</h3>
+                <p>
+                    Idli Sambar is a classic South Indian dish consisting of soft, steamed rice cakes (idli) served with a flavorful and tangy lentil-based vegetable stew (sambar).
+                </p>
+                <a href="./assets/idliSambhar.html" class="gallary_btn">Show Recipie</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="./new/english breakfast.jpg">
+
+                <h3>Oats And Coffee</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+                </p>
+                <a href="#" class="gallary_btn">Show Recipe</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="./new/Sushi.webp">
+
+                <h3>Sushi</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+                </p>
+                <a href="#" class="gallary_btn">Show Recipe</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="./image/gallary_4.jpg">
+
+                <h3>Food</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+                </p>
+                <a href="#" class="gallary_btn">Show Recipe</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="./image/gallary_5.jpg">
+
+                <h3>Food</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+                </p>
+                <a href="#" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="./image/gallary_6.jpg">
+
+                <h3>Food</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
+                </p>
+                <a href="#" class="gallary_btn">Show Recipe</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+        <h1>Our <span>Team</span></h1>
+
+        <div class="review_box">
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="./image/photo_8_2024-08-30_17-28-41.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">John Herris</h2>
+
+            
+
+                    <div class="review_social">
+                      
+                        <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/ " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="https://linkedin.com/" target="_blank">  <i class="fa-brands fa-linkedin-in"></i></a>
+                     </div>
+
+                    <p>
+                       Chef Herris often experiment with different cuisines and culinary trends to craft innovative dishes, ensuring a delightful dining experience. Beyond cooking, chefs manage kitchen inventory, maintain hygiene standards, and sometimes play a key role in menu development and cost management. Their passion for food and dedication to their craft are central to elevating the art of gastronomy.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="./image/photo_5_2024-08-30_17-28-41.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Rajat Shah </h2>
+
+
+                    <div class="review_social">
+                      
+                        <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/ " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="https://linkedin.com/" target="_blank">  <i class="fa-brands fa-linkedin-in"></i></a>
+                     </div>
+
+                    <p>
+                        Chef Rajat is a passionate culinary artist who brings creativity and precision to every dish he prepares. With a deep love for food and a keen understanding of flavors, Rajat expertly combines traditional techniques with modern culinary trends to craft memorable dining experiences.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="./new/sanjeev.jpeg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Sanjeev Kapoor</h2>
+
+
+                    <div class="review_social">
+                      
+                        <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="https://www.instagram.com/sanjeevkapoor/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/ " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                       <a href="https://linkedin.com/" target="_blank">  <i class="fa-brands fa-linkedin-in"></i></a>
+                     </div>
+
+                    <p>
+                        Chef Sanjeev Kapoor is a skilled culinary professional who specializes in preparing and presenting food. They are responsible for creating recipes, managing kitchen staff, and overseeing the daily operations of a kitchen in various settings such as restaurants, hotels, catering services, or private households. Chefs are not only experts in cooking techniques but also possess a deep understanding of ingredients, flavors, and food presentation
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="./image/photo_6_2024-08-30_17-28-41.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Abhi Shah</h2>
+<!-- 
+                    <div class="review_icon">
+               
+                    </div> -->
+
+                    <div class="review_social">
+                      
+                       <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f" ></i></a>
+                       <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/ " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://linkedin.com/" target="_blank">  <i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p>
+                        Chef Abhi's approach to cooking goes beyond the kitchen, as he is dedicated to sourcing the finest ingredients, experimenting with unique combinations, and presenting each plate as a work of art. Known for his attention to detail and commitment to excellence, He continuously seeks to innovate and inspire through his culinary journey, delighting guests with his signature style and taste.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Order-->
+
+    <div class="order" id="Order">
+        <h1><span>Connect</span>With Us</h1>
+
+        <div class="order_main">
+
+            <div class="order_image">
+                <img src="./image/order_image.png">
+            </div>
+
+            <form action="#">
+
+                <div class="input">
+                    <p>Name</p>
+                    <input type="text" placeholder="you name">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="email" placeholder="you email">
+                </div>
+
+                <div class="input">
+                    <p>Number</p>
+                    <input placeholder="you number">
+                </div>
+
+                <!-- <div class="input">
+                    <p>How Much</p>
+                    <input type="number" placeholder="how many order">
+                </div> -->
+
+                <div class="input">
+                    <p>Recipie Name</p>
+                    <input placeholder="food name">
+                </div>
+
+                <!-- <div class="input">
+                    <p>Address</p>
+                    <input placeholder="you Address">
+                </div> -->
+
+                <a href="" class="order_btn">submit</a>
+
+            </form>
+
+        </div>
+
+    </div>
+        </div>
+
+    </div>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+
+            <!-- <div class="footer_tag">
+                <h2>Location</h2>
+                <p>Sri Lanka</p>
+                <p>USA</p>
+                <p>India</p>
+                <p>Japan</p>
+                <p>Italy</p>
+            </div> -->
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+          <ul class="ull">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Recipies</a></li>
+            <li><a href="#Gallary">Your Recipes</a></li>
+            <li><a href="#Review">Team</a></li>
+            <li><a href="#Order">Contact</a></li>
+          </ul>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+94 67 894789</p>
+                <p>+94 98 789456</p>
+                <p>foodrecipe@gmail.com</p>
+                <p>teenchef@gmail.com</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Our Service</h2>
+                <p>Personalised Diet Plans</p>
+              
+            </div>
+
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f" ></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://twitter.com/ " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+               <a href="https://linkedin.com/" target="_blank">  <i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+        <p class="end">All Rights Reserved<span><i class=""></i> &copy; Teen Chef </span></p>
+
+    </footer>
+
+<script src="scrip.js"></script>
+
+
+    
+</body>
+</html>
